@@ -99,3 +99,4 @@ ax1.grid(True, alpha=0.3)
 st.pyplot(fig)
 
 st.info("**SML 說明：** S:440nm(藍), M:545nm(綠), L:570nm(紅)。")
+$SML$ 響應：是計算了黑色輻射能量曲線與 $SML$ 虛線重疊部分的總面積。
