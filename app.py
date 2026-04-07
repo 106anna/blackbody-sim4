@@ -64,7 +64,7 @@ st.markdown(f"""
 <div style="background-color: {hex_color}; height: 80px; border-radius: 10px; 
             display: flex; align-items: center; justify-content: center;
             border: 2px solid #333; color: {'black' if (r+g+b)>1.5 else 'white'}; font-weight: bold; font-size: 20px;">
-    模擬眼睛看到的顏色 (T={temp_k}K)
+    模擬黑體輻射與ＳＭＬ錐狀細胞 (T={temp_k}K)
 </div>
 """, unsafe_allow_html=True)
 
