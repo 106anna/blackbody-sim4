@@ -3,14 +3,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 網頁基本設定
-st.set_page_config(page_title="黑體輻射與色彩解碼器", layout="centered")
+st.set_page_config(page_title="黑體輻射與色彩", layout="centered")
 
 # --- 物理常數 ---
 h, c, kB = 6.626e-34, 3.0e8, 1.38e-23
 sigma = 5.67e-8  
 T_sun = 5773     
 
-st.title("🌡️ 黑體輻射：從物理能量到眼睛色彩")
+st.title("🌡️ 黑體輻射：
+從物理能量到眼睛色彩")
 st.markdown("---")
 
 # 1. 數值輸入框
